@@ -1,0 +1,26 @@
+<app-testcmp>please wait....</app-testcmp>
+<div>
+    <select #id  >
+            <option value=""selected disabled hidden>Select Your Car</option>
+            <option value="a">Audi</option>
+            <option value="b">Bently</option>
+            <option value="c">Corvette</option>
+            <option value="d">Dodge</option>
+    </select> 
+
+    <button (click)="display(id.value)"  mat-button color="accent">Submit</button><br>
+    
+    <div><img src="{{result}}"></div>
+    <div style ="text-align: center"><input value="{{text}}"></div>
+    </div>
+
+    <div style="text-align: center" 
+    class="TimeandDate">
+        <div class="Date">
+            <div>Happy {{day}}!</div>
+            <div>{{ Date1 | date:'dd/MM/yyyy' }}</div>
+        </div>
+        <div class="Time">
+            <div><input value="{{hour}} : {{minute}} : {{second}} : {{ampm}}"></div>
+        </div>
+    </div>

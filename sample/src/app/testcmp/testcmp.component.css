@@ -1,0 +1,19 @@
+section {
+    display: table;
+    
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-icon{
+    color:white
+
+  }
+ span{
+  padding:10px;
+ } 
+ mat-grid-tile {
+  background: lightpink;
+}
+
+  
